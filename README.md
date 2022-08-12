@@ -61,3 +61,8 @@ if result:
     # Extract the address and other data from the payload as simple as that:
     print(res.payload[0].address)
 ```
+
+## Contacts
+
+If you have any questions or suggestions, don't hesitate to open an issue or contact the developers at
+stardust.skg@gmail.com.
