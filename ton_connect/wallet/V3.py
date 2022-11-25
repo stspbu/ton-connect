@@ -27,7 +27,7 @@ class WalletV3(Wallet[T], Generic[T], ABC):
         cell = Cell()
 
         cell.data.put_arbitrary_uint(0, 32)
-        cell.data.put_arbitrary_uint(self._options)
+        cell.data.put_arbitrary_uint(self._options.wallet_id, 32)
         cell.data.put_arbitrary_uint(int.from_bytes(self._options.public_key, byteorder='big'), 256)
 
         return cell
