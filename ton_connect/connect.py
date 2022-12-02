@@ -204,7 +204,7 @@ class AuthResponse:
             return False
 
         bytes_address = base64.urlsafe_b64decode(payload.address)
-        workchain_id = int.from_bytes(bytes_address[1:2], byteorder='big')
+        workchain_id = int.from_bytes(bytes_address[1:2], byteorder='big', signed=True)
 
         options = {
             'workchain_id': workchain_id,

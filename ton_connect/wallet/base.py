@@ -96,7 +96,7 @@ class Wallet(Generic[T], ABC):
         workchain_id, address = raw_address.split(':')
 
         tag = 0x11.to_bytes(1, byteorder='big')  # always bounceable
-        workchain_id = int(workchain_id).to_bytes(1, byteorder='big')
+        workchain_id = int(workchain_id).to_bytes(1, byteorder='big', signed=True)
         address = bytes.fromhex(address)
 
         addr = tag + workchain_id + address
