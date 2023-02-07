@@ -62,6 +62,10 @@ if result:
     print(res.payload[0].address)
 ```
 
+## Donation
+If my work helps you, you can donate to this TON wallet:<br>
+EQCBA764QkuNJ6__lo1qagfHsa511ohsu8dLW8roFE-jjF-K
+
 ## Contacts
 
 If you have any questions or suggestions, don't hesitate to open an issue or contact the developers at
