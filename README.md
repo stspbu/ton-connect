@@ -6,7 +6,7 @@ Implements: [📄 TON Connect Specification](https://github.com/tonkeeper/ton-co
 This software is provided "as is" without warranty of any kind.<br>
 Do not use it in your production unless you know what you are doing.
 
-The library has only been tested with Tonkeeper login.
+The library has only been tested with Tonkeeper app.
 
 ## Installation
 Run 'install' from the repository folder:
